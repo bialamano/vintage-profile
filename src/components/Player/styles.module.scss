@@ -1,0 +1,55 @@
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  // background-color: #eee4ff;
+  border: 2px dashed #70f5ff;
+  height: 100px;
+  // box-shadow: -2px -2px #f5ddea, -2px 0 #a19c9c, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000;
+}
+
+.cover {
+  height: 100px;
+  display: flex;
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.musicCover {
+  height: 100%;
+}
+
+.playButton {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+}
+
+.subTitle,
+.title {
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+  background-color: #d40d2f;
+  width: fit-content;
+}
+
+.title {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .component {
+    width: 50%;
+  }
+}

@@ -1,0 +1,61 @@
+.searchBar {
+  font-size: 13px;
+  line-height: 1.1875rem;
+  background-color: rgb(255, 237, 248);
+  // background: linear-gradient(359deg, rgb(235, 184, 215) 0%, rgb(255, 207, 237) 43%, rgb(255, 237, 248) 79%, rgb(255, 237, 248) 100%);
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #ffbbe0;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  color: #525252;
+  padding: 0 5px;
+  justify-content: space-between;
+
+  img {
+    height: 70%;
+    margin-right: 5px;
+  }
+}
+
+.title {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.minimize {
+  background: rgb(255, 202, 55);
+  background: linear-gradient(0deg, rgba(255, 202, 55, 1) 0%, rgba(255, 245, 40, 1) 71%, rgba(255, 250, 149, 1) 100%);
+  border: 1px solid rgb(163, 131, 44);
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(255, 250, 149, 1) 0%, rgba(255, 245, 40, 1) 21%, rgba(255, 202, 55, 1) 100%);
+  }
+}
+
+.maximize {
+  background: rgb(128, 255, 55);
+  background: linear-gradient(0deg, rgb(94, 185, 41) 0%, rgb(142, 226, 94) 51%, rgb(176, 233, 144) 100%);
+  border: 1px solid rgb(93, 155, 57);
+
+  &:hover {
+    background: linear-gradient(0deg, rgb(176, 233, 144) 0%, rgb(142, 226, 94) 51%, rgb(94, 185, 41) 100%);
+  }
+}
+
+.close {
+  background: rgb(248, 31, 31);
+  background: linear-gradient(0deg, rgba(248, 31, 31, 1) 0%, rgb(235, 79, 79) 61%, rgb(248, 163, 163) 100%);
+  border: 1px solid rgb(138, 21, 21);
+
+  &:hover {
+    background: linear-gradient(0deg, rgb(248, 163, 163) 0%, rgb(235, 79, 79) 41%, rgba(248, 31, 31, 1) 100%);
+  }
+}

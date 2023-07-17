@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'microsoft_sans_serifregular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.2px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+@font-face {
+  font-family: 'microsoft_sans_serifregular';
+  src: url('./fonts/microsoft_sans_serif_regular_font-webfont.woff2') format('woff2'),
+    url('./fonts/microsoft_sans_serif_regular_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'microsoft_sans_serifregular';
+  src: url('./fonts/microsoft_sans_serif-webfont.woff2') format('woff2'),
+    url('./fonts/microsoft_sans_serif-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comic sans';
+  src: url('./fonts/ldfcomicsans-webfont.woff2') format('woff2'),
+    url('./fonts/ldfcomicsans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comic sans';
+  src: url('./fonts/ldfcomicsansbold-webfont.woff2') format('woff2'),
+    url('./fonts/ldfcomicsansbold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comic sans';
+  src: url('./fonts/ldfcomicsanshairline-webfont.woff2') format('woff2'),
+    url('./fonts/ldfcomicsanshairline-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comic sans';
+  src: url('./fonts/ldfcomicsanslight-webfont.woff2') format('woff2'),
+    url('./fonts/ldfcomicsanslight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

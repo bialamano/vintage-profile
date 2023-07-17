@@ -1,12 +1,13 @@
-import './App.css';
-import Header from './components';
+import AboutMe from './pages/AboutMe';
 
-function App() {
+import ContextProvider from './context';
+
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <ContextProvider>
+      <AboutMe />
+    </ContextProvider>
   );
-}
+};
 
 export default App;

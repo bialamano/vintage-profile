@@ -1,0 +1,43 @@
+.menu {
+  color: #252525;
+  background-color: #ffd7ec;
+  display: flex;
+  height: 80%;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  box-shadow: -2px -2px #f5ddea, -2px 0 #a19c9c, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000;
+
+  &:focus {
+    box-shadow: inset -2px -2px #f5ddea, -2px 0 #a19c9c, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000
+  }
+
+  img {
+    margin-right: 5px;
+    height: 25px;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 35px;
+  z-index: 2;
+  width: 100%;
+  background-color: #ffd7ec;
+  box-shadow: -2px -2px #f5ddea, -2px 0 #f5ddea, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000;
+}
+
+.button {
+  // width: 200px;
+  font-size: 13px;
+  height: 80%;
+  padding: 0 10px;
+  margin-left: 15px;
+  box-shadow: -2px -2px #f5ddea, -2px 0 #f5ddea, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000;
+}
