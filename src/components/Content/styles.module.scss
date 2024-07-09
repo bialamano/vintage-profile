@@ -45,6 +45,8 @@ ul {
 }
 
 .interests {
+  border: 1px dashed #ffbbe0;
+    padding: 20px 0;
   img {
     max-width: 60px;
   }
@@ -61,7 +63,19 @@ ul {
 }
 
 .myStuff {
+  padding-right: 1.875rem;
   width: 60%;
   display: grid;
+  gap: 1.25rem;
   grid-template-columns: repeat(3, 1fr);
+}
+.link {
+  color: #fff;
+  text-decoration: dotted;
+  background-color: #e07bdb;
+}
+
+.link:hover {
+  color: #000;
+  background-color: #fff;
 }

@@ -19,21 +19,11 @@ const AboutMe = () => {
       <div className={s.aboutMe}>
         {!close && !minimize && (
           <>
-            {maximize ? (
-              <div className={cx(s.aboutMeWrapper, { maximized: maximize })}>
-                <Header />
-                <SearchBar />
-                <Content />
-              </div>
-            ) : (
-              <Draggable>
-                <div className={cx(s.aboutMeWrapper, { maximized: maximize })}>
-                  <Header />
-                  <SearchBar />
-                  <Content />
-                </div>
-              </Draggable>
-            )}
+            <div className={cx(s.aboutMeWrapper, { maximized: maximize })}>
+              <Header />
+              <SearchBar />
+              <Content />
+            </div>
           </>
         )}
         <button className={s.aboutMeButton} onClick={() => setClose(false)}>

@@ -5,7 +5,7 @@ const SearchBar = () => {
     <>
       <div className={s.searchBar}>
         <div className={s.title}>
-          <span>URL: https://www.peachesinspring.com</span>
+          <span>URL: https://www.strawberryrush.chuu</span>
         </div>
         <div className={s.buttons}>
           <button>Refresh</button>
