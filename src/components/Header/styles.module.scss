@@ -27,11 +27,13 @@
   height: 100%;
   align-items: center;
 
-  span {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 85%;
+  @media (max-width: 768px) {
+    span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 85%;
+    }
   }
 }
 
