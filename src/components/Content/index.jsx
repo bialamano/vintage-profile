@@ -1,4 +1,3 @@
-import Player from '../Player';
 import s from './styles.module.css';
 
 const Content = () => {
@@ -10,10 +9,10 @@ const Content = () => {
           <li>
             <img className={s.mainPic} src='chuu2.jpg' alt='Icon' />
           </li>
+          <li>hi, my name is 김지우 and i love music</li>
           <li>
-            hi, my name is 김지우 and i love music
+            color: <span style={{ background: '#FEA87D' }}>peach</span>
           </li>
-          <li>color: <span style={{ background: '#FEA87D' }}>peach</span></li>
           <li>
             <a
               href='https://www.instagram.com/chuuo3o/'
@@ -33,7 +32,10 @@ const Content = () => {
           <ul>
             <li>💗 taekwondo</li>
             <li>💗 cute things</li>
-            <li>💗 going out with<br /> my friends</li>
+            <li>
+              💗 going out with
+              <br /> my friends
+            </li>
             <li>💗 singing</li>
             <li>💗 baking</li>
           </ul>
