@@ -6,6 +6,10 @@
   font-size: 11px;
   line-height: 16px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .footer {
@@ -16,7 +20,11 @@
   height: 35px;
   width: 100%;
   background-color: #ffd7ec;
-  box-shadow: -2px -2px #f5ddea, -2px 0 #f5ddea, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000;
+  box-shadow: -2px -2px #f5ddea, -2px 0 #f5ddea, 0 -2px #f5ddea,
+    -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181,
+    0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181,
+    -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000,
+    2px -4px #fffdfe, 4px -4px #000;
 }
 
 .button {
@@ -25,7 +33,11 @@
   height: 80%;
   padding: 0 10px;
   margin-left: 15px;
-  box-shadow: -2px -2px #f5ddea, -2px 0 #f5ddea, 0 -2px #f5ddea, -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181, 0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181, -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000, 2px -4px #fffdfe, 4px -4px #000;
+  box-shadow: -2px -2px #f5ddea, -2px 0 #f5ddea, 0 -2px #f5ddea,
+    -4px -4px #fffdfe, -4px 0 #fffdfe, 0 -4px #fffdfe, 2px 2px #818181,
+    0 2px #818181, 2px 0 #818181, 2px -2px #f5ddea, -2px 2px #818181,
+    -4px 2px #fffdfe, -4px 4px #000, 4px 4px #000, 4px 0 #000, 0 4px #000,
+    2px -4px #fffdfe, 4px -4px #000;
 }
 
 .mainPic {
@@ -46,9 +58,14 @@ ul {
 
 .interests {
   border: 1px dashed #ffbbe0;
-    padding: 20px 0;
+  padding: 20px 0;
+
   img {
     max-width: 60px;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex: 1;
   }
 }
 
@@ -68,7 +85,15 @@ ul {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0 auto 1.25rem;
+    padding: 0;
+    display: flex;
+  }
 }
+
 .link {
   color: #fff;
   text-decoration: dotted;

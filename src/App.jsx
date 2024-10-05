@@ -1,4 +1,4 @@
-import AboutMe from './pages/AboutMe';
+import AboutMe from './containers/AboutMe';
 
 import ContextProvider from './context';
 
