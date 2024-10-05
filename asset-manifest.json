@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vintage-profile/static/css/main.823ef75a.css",
+    "main.js": "/vintage-profile/static/js/main.21e727cc.js",
+    "static/media/ldfcomicsans-webfont.woff": "/vintage-profile/static/media/ldfcomicsans-webfont.23a0a4dad09919f6c678.woff",
+    "static/media/ldfcomicsanshairline-webfont.woff": "/vintage-profile/static/media/ldfcomicsanshairline-webfont.eb434f66c7fb4fe65b49.woff",
+    "static/media/ldfcomicsansbold-webfont.woff": "/vintage-profile/static/media/ldfcomicsansbold-webfont.312f56129d13b15e1ac6.woff",
+    "static/media/ldfcomicsanslight-webfont.woff": "/vintage-profile/static/media/ldfcomicsanslight-webfont.ae989b675957c3ed55f8.woff",
+    "static/media/microsoft_sans_serif-webfont.woff": "/vintage-profile/static/media/microsoft_sans_serif-webfont.625c396c041ab7384a74.woff",
+    "static/media/microsoft_sans_serif_regular_font-webfont.woff": "/vintage-profile/static/media/microsoft_sans_serif_regular_font-webfont.1d02fa79777c0d349c53.woff",
+    "static/media/ldfcomicsans-webfont.woff2": "/vintage-profile/static/media/ldfcomicsans-webfont.6cd0a20faf337475a180.woff2",
+    "static/media/ldfcomicsansbold-webfont.woff2": "/vintage-profile/static/media/ldfcomicsansbold-webfont.7a70769f721cd4273c8b.woff2",
+    "static/media/ldfcomicsanshairline-webfont.woff2": "/vintage-profile/static/media/ldfcomicsanshairline-webfont.c791dc561e2c8aeb43fa.woff2",
+    "static/media/ldfcomicsanslight-webfont.woff2": "/vintage-profile/static/media/ldfcomicsanslight-webfont.063ca2c0ee15933f3870.woff2",
+    "static/media/microsoft_sans_serif-webfont.woff2": "/vintage-profile/static/media/microsoft_sans_serif-webfont.9b21b24759f3c240193a.woff2",
+    "static/media/microsoft_sans_serif_regular_font-webfont.woff2": "/vintage-profile/static/media/microsoft_sans_serif_regular_font-webfont.9f5f0eeacedb0a509944.woff2",
+    "index.html": "/vintage-profile/index.html",
+    "main.823ef75a.css.map": "/vintage-profile/static/css/main.823ef75a.css.map",
+    "main.21e727cc.js.map": "/vintage-profile/static/js/main.21e727cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.823ef75a.css",
+    "static/js/main.21e727cc.js"
+  ]
+}
