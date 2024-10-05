@@ -10,12 +10,8 @@
 
 ### Frontend
 
-- **HTML5**: For structuring the web pages.
-- **CSS3**: For styling the web pages.
-- **Sass**: A CSS preprocessor for writing more maintainable and scalable styles.
-- **JavaScript**: For adding interactivity to the web pages.
 - **React**: A JavaScript library for building user interfaces.
-- **Next.js**: A React framework for server-side rendering and generating static websites.
+- **Sass**: A CSS preprocessor for writing more maintainable and scalable styles.
 
 ### Tools and Platforms
 
